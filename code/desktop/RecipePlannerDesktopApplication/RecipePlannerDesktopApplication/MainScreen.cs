@@ -23,5 +23,6 @@ namespace RecipePlannerDesktopApplication
             //Do Something with name
             MessageBox.Show("Hello " + name + "!, your name was added to the database");
         }
+
     }
 }
