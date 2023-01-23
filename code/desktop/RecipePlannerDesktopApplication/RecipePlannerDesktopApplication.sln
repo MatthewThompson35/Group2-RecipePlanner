@@ -5,6 +5,8 @@ VisualStudioVersion = 17.3.32901.215
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecipePlannerDesktopApplication", "RecipePlannerDesktopApplication\RecipePlannerDesktopApplication.csproj", "{3E910D42-8DBB-4D2C-AB45-F0A4F8446F4B}"
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "RecipePlannerDraftDatabase", "RecipePlannerDraftDatabase\RecipePlannerDraftDatabase.sqlproj", "{F6C8E8CD-D278-4F08-88AE-57E087D33A14}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,12 @@ Global
 		{3E910D42-8DBB-4D2C-AB45-F0A4F8446F4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3E910D42-8DBB-4D2C-AB45-F0A4F8446F4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3E910D42-8DBB-4D2C-AB45-F0A4F8446F4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6C8E8CD-D278-4F08-88AE-57E087D33A14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6C8E8CD-D278-4F08-88AE-57E087D33A14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6C8E8CD-D278-4F08-88AE-57E087D33A14}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{F6C8E8CD-D278-4F08-88AE-57E087D33A14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6C8E8CD-D278-4F08-88AE-57E087D33A14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6C8E8CD-D278-4F08-88AE-57E087D33A14}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
