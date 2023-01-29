@@ -30,13 +30,16 @@
         {
             this.nameButton = new System.Windows.Forms.Button();
             this.nameTextBox = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.errorNameLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // nameButton
             // 
-            this.nameButton.Location = new System.Drawing.Point(567, 212);
+            this.nameButton.Location = new System.Drawing.Point(677, 261);
+            this.nameButton.Margin = new System.Windows.Forms.Padding(4);
             this.nameButton.Name = "nameButton";
-            this.nameButton.Size = new System.Drawing.Size(75, 23);
+            this.nameButton.Size = new System.Drawing.Size(100, 28);
             this.nameButton.TabIndex = 0;
             this.nameButton.Text = "Add";
             this.nameButton.UseVisualStyleBackColor = true;
@@ -44,18 +47,42 @@
             // 
             // nameTextBox
             // 
-            this.nameTextBox.Location = new System.Drawing.Point(321, 206);
+            this.nameTextBox.Location = new System.Drawing.Point(329, 264);
+            this.nameTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.nameTextBox.Name = "nameTextBox";
-            this.nameTextBox.Size = new System.Drawing.Size(218, 20);
+            this.nameTextBox.Size = new System.Drawing.Size(289, 22);
             this.nameTextBox.TabIndex = 1;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(329, 226);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(93, 16);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "Insert a Name:";
+            // 
+            // errorNameLabel
+            // 
+            this.errorNameLabel.AutoSize = true;
+            this.errorNameLabel.ForeColor = System.Drawing.Color.Red;
+            this.errorNameLabel.Location = new System.Drawing.Point(332, 308);
+            this.errorNameLabel.Name = "errorNameLabel";
+            this.errorNameLabel.Size = new System.Drawing.Size(145, 16);
+            this.errorNameLabel.TabIndex = 3;
+            this.errorNameLabel.Text = "Please Insert a Name!!!";
+            this.errorNameLabel.Visible = false;
             // 
             // MainScreen
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.Controls.Add(this.errorNameLabel);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.nameTextBox);
             this.Controls.Add(this.nameButton);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "MainScreen";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -67,6 +94,8 @@
 
         private System.Windows.Forms.Button nameButton;
         private System.Windows.Forms.TextBox nameTextBox;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label errorNameLabel;
     }
 }
 
