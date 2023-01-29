@@ -39,5 +39,6 @@ namespace RecipePlannerDesktopApplication
                 MessageBox.Show("Hello " + name + "!, your name was added to the database");
             }
         }
+
     }
 }
