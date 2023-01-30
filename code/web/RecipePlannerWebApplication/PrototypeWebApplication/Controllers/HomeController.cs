@@ -15,7 +15,10 @@ namespace PrototypeWebApplication.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            NamesContext? context = HttpContext.RequestServices.GetService(typeof(NamesContext)) as NamesContext;
+
+            return View(context.GetAllAlbums());
+            //return View();
         }
 
         public IActionResult Privacy()

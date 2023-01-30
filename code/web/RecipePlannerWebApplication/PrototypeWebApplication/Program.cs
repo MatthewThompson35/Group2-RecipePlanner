@@ -1,9 +1,18 @@
+using MySqlConnector;
+using PrototypeWebApplication.Models;
+using System.Configuration;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
+
+builder.Services.AddTransient<MySqlConnection>(_ =>
+    new MySqlConnection(builder.Configuration.GetConnectionString("Default")));
+
+//builder.Services.Add(new ServiceDescriptor(typeof(NamesContext), new NamesContext(builder.Configuration.GetConnectionString("Default"))));
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())

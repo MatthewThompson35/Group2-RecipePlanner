@@ -2,7 +2,24 @@
     ViewData["Title"] = "Home Page";
 }
 
+@model IEnumerable<Names>
+@{
+
+}
+
 <div class="text-center">
     <h1 class="display-6"><u>Names:</u></h1>
-    <p></p>
+    <table class="table">
+        <tr>
+            <th>Name</th>
+        </tr>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayTextFor(modelItem => item.Name)
+                </td>
+            </tr>
+        }
+    </table>
 </div>

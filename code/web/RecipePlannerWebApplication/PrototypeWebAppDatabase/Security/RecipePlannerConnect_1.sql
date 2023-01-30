@@ -1,0 +1,3 @@
+﻿CREATE LOGIN [RecipePlannerConnect]
+    WITH PASSWORD = N'ma{w^h2bq,r#ljIqznrun>rfmsFT7_&#$!~<uih3ww!Wv>hw' MUST_CHANGE, SID = 0xBA2B56851EF9B249A4A6CE80EE1E1AEE, DEFAULT_DATABASE = [RecipePlanner], DEFAULT_LANGUAGE = [us_english], CHECK_EXPIRATION = ON;
+
