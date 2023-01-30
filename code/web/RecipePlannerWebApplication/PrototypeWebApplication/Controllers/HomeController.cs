@@ -17,7 +17,7 @@ namespace PrototypeWebApplication.Controllers
         {
             NamesContext? context = HttpContext.RequestServices.GetService(typeof(NamesContext)) as NamesContext;
 
-            return View(context.GetAllAlbums());
+            return View(context.GetAllNames());
             //return View();
         }
 

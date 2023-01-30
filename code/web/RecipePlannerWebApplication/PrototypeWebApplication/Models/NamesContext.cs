@@ -16,14 +16,14 @@ namespace PrototypeWebApplication.Models
             return new MySqlConnection(ConnectionString);
         }
 
-        public List<Names> GetAllAlbums()
+        public List<Names> GetAllNames()
         {
             List<Names> list = new List<Names>();
 
             using (MySqlConnection conn = GetConnection())
             {
                 conn.Open();
-                MySqlCommand cmd = new MySqlCommand("select * from Album where id < 10", conn);
+                MySqlCommand cmd = new MySqlCommand("select * from names", conn);
 
                 using (var reader = cmd.ExecuteReader())
                 {
