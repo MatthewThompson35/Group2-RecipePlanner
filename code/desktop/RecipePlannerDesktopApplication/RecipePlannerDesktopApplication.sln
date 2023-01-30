@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecipePlannerDesktopApplica
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesktopTesting", "DesktopTesting\DesktopTesting.csproj", "{6B81D79C-7C28-4CCA-8E68-3640BB29C1D1}"
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "RecipePlannerDraftDatabase", "RecipePlannerDraftDatabase\RecipePlannerDraftDatabase.sqlproj", "{9499EFB9-7733-4624-90FF-B6E5957F286C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,12 @@ Global
 		{6B81D79C-7C28-4CCA-8E68-3640BB29C1D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B81D79C-7C28-4CCA-8E68-3640BB29C1D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6B81D79C-7C28-4CCA-8E68-3640BB29C1D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9499EFB9-7733-4624-90FF-B6E5957F286C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9499EFB9-7733-4624-90FF-B6E5957F286C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9499EFB9-7733-4624-90FF-B6E5957F286C}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{9499EFB9-7733-4624-90FF-B6E5957F286C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9499EFB9-7733-4624-90FF-B6E5957F286C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9499EFB9-7733-4624-90FF-B6E5957F286C}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
