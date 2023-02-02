@@ -3,6 +3,16 @@
 }
 
 <div class="text-center">
-    <h1 class="display-6"><u>Names:</u></h1>
+    <table>
+        <tr>
+            <th>Names</th>
+        </tr>
+        @foreach (var item in ViewBag.Names)
+        {
+            <tr>
+                <td>@item</td>
+            </tr>
+        }
+    </table>
     <p></p>
 </div>
